@@ -1,0 +1,87 @@
+* {
+    font-family: Arial, sans-serif;
+}
+body {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-image: url(fondoPK.jpg);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background:  rgba(0, 0, 0, 0.7);;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.navlink {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+}
+.navlink li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.logo {
+    height: 200px; 
+    position: absolute;
+    left: 45%;
+}
+.iconos {
+    font-size: 25px;
+    justify-content: space-around;
+    
+}
+.fondo.png {
+    filter: brightness(20%);
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.poderes {
+    padding-left: 90px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.poke {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center; 
+    gap: 2px; 
+    
+}
+.pokemones {
+    width: 500px;
+    padding-right: 100px;
+    height: auto;
+    margin-bottom: 2px;
+}
+button {
+    font-size: 15px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 15px 40px;
+    cursor: pointer;
+    text-align: center;
+    display: block; 
+    margin: auto; 
+}
+button:hover {
+    color: gainsboro;
+}
