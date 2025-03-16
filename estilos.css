@@ -26,6 +26,7 @@ nav {
     list-style: none;
     display: flex;
     gap: 100px;
+    padding-left: 100px;
 }
 .navlink li a {
     text-decoration: none;  
@@ -44,9 +45,6 @@ nav {
     gap: 90px;
     padding-right: 40px;
 
-}
-.fondo.png {
-    filter: brightness(20%);
 }
 main {
     display: flex;
