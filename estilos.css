@@ -1,5 +1,5 @@
 * {
-    font-family: Inter;
+    font-family: inter;
     color: white;
 }
 body {
@@ -44,7 +44,6 @@ nav {
     gap: 90px;
     padding-right: 40px;
 
-    
 }
 .fondo.png {
     filter: brightness(20%);
