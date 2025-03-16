@@ -1,11 +1,12 @@
 * {
-    font-family: Arial, sans-serif;
+    font-family: Inter;
+    color: white;
 }
 body {
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: black;
-    background-image: url(fondoPK.jpg);
+    background-image: url(FondoOf.png);
 }
 header {
     display: flex;
@@ -27,8 +28,7 @@ nav {
     gap: 100px;
 }
 .navlink li a {
-    color: white;
-    text-decoration: none;
+    text-decoration: none;  
     font-weight: bold;
 }
 .logo {
@@ -37,8 +37,13 @@ nav {
     left: 45%;
 }
 .iconos {
+    display:flex;
+    align-items: flex-end;
+    color: white;
     font-size: 25px;
-    justify-content: space-around;
+    gap: 90px;
+    padding-right: 40px;
+
     
 }
 .fondo.png {
@@ -54,6 +59,7 @@ main {
     padding-left: 90px;
     border-radius: 10px;
     font-size: 20px;
+    color: white;
 }
 .poke {
     display: flex;
